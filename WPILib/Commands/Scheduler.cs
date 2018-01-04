@@ -158,6 +158,12 @@ namespace WPILib.Commands
                 }
             }
 
+            // Call every subsystem's periodic method
+            foreach(var subsystem in m_subsystems)
+            {
+                subsystem.Periodic();
+            }
+
             LinkedListElement e = m_firstCommand;
             while (e != null)
             {

@@ -50,6 +50,14 @@ namespace WPILib.Commands
         protected abstract void InitDefaultCommand();
 
         /// <summary>
+        /// When the run method of the scheduler is called this method will be called.
+        /// </summary>
+        public virtual void Periodic()
+        {
+            // Override me!
+        }
+
+        /// <summary>
         /// Sets the default command.
         /// </summary>
         /// <remarks>If this is not called, or is called with null, then there will be no default
