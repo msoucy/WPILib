@@ -158,6 +158,8 @@
     <Compile Include="Interfaces\IPIDOutput.cs" />
     <Compile Include="Interfaces\IPIDSource.cs" />
     <Compile Include="Interfaces\IPotentiometer.cs" />
+    <Compile Include="TimedRobot.cs" />
+    <Compile Include="IterativeRobotBase.cs" />
     <Compile Include="JoystickBase.cs" />
     <Compile Include="PWMSpeedController.cs" />
     <Compile Include="SD540.cs" />
